@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #428bca;
+    --white-color:#fff;
+    --black-color:#000;
+    --blue-color:#0000fe;
+    --border-color: #5e94b8;
+
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html,body {
+    font-size: 62.5%; 
+    /* 62.5% = 10px */
+    line-height: 1.6rem;
+    /* 1.6 rem = 16px */
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dfdfdf;
+}
+
+/* Reponsive */
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto; /* Căn giữa */
+    background-color: var(--white-color);
+}
+
+.grid-2{
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto; /* Căn giữa */
+}
+
+.grid-3{
+    max-width: 100%;
+    padding: 15px;
+}
+
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap; /* Tự xuống hàng khi chiều dài k đủ */
+}

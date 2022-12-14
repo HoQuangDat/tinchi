@@ -1,0 +1,81 @@
+.Result__Infor-Table > table, th, td{
+  border-bottom: 1px solid #e8e8e8;
+
+}
+.search__title>thead
+{
+  height: 30px;
+}
+.search__Title {
+  background-color: #282828;
+  max-height: 40px;
+  height: 34px;
+  color: #fff;
+  line-height: 35px;
+  padding-left: 5px;
+  font-size: 1.4rem;
+}
+.search__Title h4 {
+  margin-top: 0px;
+}
+.search__Option {
+  display: flex;
+}
+.search__btn {
+  color: #fff;
+  background: #282828;
+  height: 33px;
+  border: none;
+  cursor: grab;
+  transition: all 0.25s linear;
+  border-radius: 5px;
+}
+.search__btn:hover {
+  background: none;
+  border: 1px solid #282828;
+  color: #282828;
+}
+.search__Option > span {
+  margin: auto 0;
+  padding-right: 5px;
+}
+.search__container {
+  font-size: 1.2rem;
+}
+
+.search__title{
+  margin: 0;
+  color: #808080;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.search__title td, 
+.search__details td{
+  padding: 8px;
+  text-align: center;
+  color: #282828;
+}
+
+.follow {
+  height: 33px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid #e8e8e8;
+  margin: 0 10px;
+}
+.search__pillar {
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+}
+.keywords
+{
+  outline: none;
+  padding-left: 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 250px;
+}
